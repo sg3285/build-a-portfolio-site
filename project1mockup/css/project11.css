@@ -1,0 +1,101 @@
+ /**********Underline Project Links*****/
+
+ p {
+  text-decoration: underline;
+}
+
+/*******Horizontal Line*********/
+
+hr {
+  border-width: 4px;
+  border-top-color: #BCBBBB;
+ }
+
+
+ /**********Responsive**********/
+
+@media (max-width: 500px) {
+  {
+  .featured-work 
+    display: none; 
+  }
+
+.logo-block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.title-super {
+  text-align:center;
+  font-size: 4em;
+  color: #747704;
+  }
+
+.sub-title {
+    display:none;
+  }
+
+.lab-featured-work {
+    text-align:center;
+  }
+}
+
+
+ /***********HEADER**************/
+
+.logo-block {
+  border: 8px solid #F8981C;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  line-height: 88px;
+  text-align: center;
+  color: #F8981C;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.header {
+	font-family: 'Lato', sans-serif;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.title-super {
+  font-size: 4em;
+  color: #747704;
+}
+
+/************FEATURED***************/
+
+.header h2 {
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.featured h2 {
+	padding-left: 10px;
+	color: #bcbbbb;
+}
+
+/***********PROJECTS***********/
+
+.col-md-4 img {
+	border: 1px solid black;
+}
+
+.projects h3 {
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+
+
+
